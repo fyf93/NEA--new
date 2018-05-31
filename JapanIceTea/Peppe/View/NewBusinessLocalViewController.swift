@@ -57,7 +57,7 @@ class NewBusinessLocalViewController: UIViewController, ModelDelegate, UIPickerV
         self.imagePicker.delegate = self
         self.photoImageView.isHidden = false
         self.photoImageView.layer.borderWidth = 1
-        self.pickerOption = ["Bar", "Disco", "Restaurant"]
+        self.pickerOption = ["Bar", "Disco", "Restaurant", "Beach Bar", "Cultural Events", "Pub","Lounge Bar"]
         self.typePickerView.setValue(UIColor.white, forKeyPath: "textColor")
     }
     
